@@ -4,7 +4,7 @@ Simple C implementation of hierarchical agglomerative clustering.
 
 ## Usage
 
-```
+```c
 float get_distance(some_t* a, some_t* b, some_extra* opts) {
   return abs(a - b);
 }
