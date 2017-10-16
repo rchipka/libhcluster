@@ -9,7 +9,7 @@ float get_distance(some_t* a, some_t* b, some_extra* opts) {
   return abs(a - b);
 }
 
-void* get_value(void* values, int index) {
+void* get_value(some_t* values, int index) {
   return &values[index];
 }
 
