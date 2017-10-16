@@ -10,7 +10,7 @@ float get_distance(some_t* a, some_t* b, some_extra* opts) {
 }
 
 void* get_value(void* values, int index) {
-  return &array[index];
+  return &values[index];
 }
 
 int total = 100;
